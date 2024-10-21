@@ -1,0 +1,28 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#game-area {
+  width: 80dvw;
+  height: 90dvh;
+  background-color: black;
+  position: relative;
+}
+
+.score{
+    color: white;
+    padding: 4rem;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+#player {
+  width: 100px;
+  height: 100px;
+  background-color: brown;
+  position: absolute;
+  bottom: 0;
+}
